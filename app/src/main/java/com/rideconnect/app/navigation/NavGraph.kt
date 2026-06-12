@@ -71,11 +71,11 @@ fun NavGraph() {
 
             composable(Screen.Welcome.route) {
                 WelcomeScreen(
-                    onLoginClick = {
+                    onCustomerClick = {
                         navController.navigate(Screen.Login.route)
                     },
-                    onSignupClick = {
-
+                    onDriverClick = {
+                        navController.navigate(Screen.Login.route)
                     }
                 )
             }
