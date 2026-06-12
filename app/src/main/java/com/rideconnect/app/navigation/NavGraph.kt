@@ -99,6 +99,8 @@ fun NavGraph() {
                 HomeScreen(
                     onBookRideClick = {
                         navController.navigate(Screen.SearchingDriver.route)
+
+
                     }
                 )
             }
