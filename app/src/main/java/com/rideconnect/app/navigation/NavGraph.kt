@@ -69,6 +69,7 @@ fun NavGraph() {
                 )
             }
 
+
             composable(Screen.Welcome.route) {
                 WelcomeScreen(
                     onCustomerClick = {
